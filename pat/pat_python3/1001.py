@@ -25,13 +25,14 @@ def Callatz(a,count):
     if a % 2 == 0:
         a = a / 2
         count = count + 1
-        return Callatz(a,count)
+        return Callatz(a,count) 
     if a == 1:
         return count
     if a % 2 != 0 and a != 1 :
         a = ( a * 3 + 1 ) / 2
         count = count + 1
         return Callatz(a,count)
+
 start = time.clock()
 a = int(input())
 count = 0 # 计数器
