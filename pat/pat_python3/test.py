@@ -1,3 +1,2 @@
-a = "123455"
-b = map(int,a)
-print(b)
+a = [(122,("ssslsleis","slslels")),"slsidowe"]
+print(a[0][1])
